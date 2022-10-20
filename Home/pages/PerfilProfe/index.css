@@ -1,0 +1,198 @@
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    background-color: #233562;
+}
+
+.page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+
+.media-body {
+    font-family: 'Anton', sans-serif;
+}
+
+/* for toggle behavior */
+#sidebarCollapse {
+    border: none;
+    margin: 0px;
+    position: relative;
+    top: -6px;
+    padding: 0px;
+    background: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ToggleUl {
+    list-style-type: none;
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.ToggleUl li {
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0;
+    height: 2px;
+}
+
+.sidebaractive {
+    margin-left: -17rem;
+}
+
+.contentactive {
+    width: 100%;
+    margin: 0;
+}
+
+.nav-item {
+    border-bottom: 1px solid #1B2745;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profileNav {
+    background-color: #152242;
+    color: white;
+}
+
+/* informationPage */
+
+.informationPage {
+    background-color: #233562;
+    height: 113px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.informationPage p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationPage h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* MAIN */
+
+.ProfilePhoto {
+    min-height: 330px;
+    background-image: url(imgs/1_dia_dos_professores-21875273.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 12px;
+    color: white;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px #000000;
+}
+
+.ProfilePhoto div h1 {
+    margin: 0;
+}
+
+.ProfilePhoto div p {
+    margin: 0;
+}
+
+.ProfilePhotoWrap {
+    padding: 0 !important;
+}
+
+.AboutProf {
+    background-color: #223C71;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 45px;
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutProf ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.AboutProf ul li {
+    display: flex;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid white;
+}
+
+.AboutProf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AboutProf button {
+    background-color: #2C5AB4;
+    border: none;
+    width: 190px;
+    padding: 5px;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.VideosProf {
+    padding: 15px;
+    color: white;
+    height: 100vmax;
+    background-color: #142444;
+}
+
+.CardsWrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardR {
+    margin: 10px;
+    width: 250px;
+    height: 130px;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px #000000;
+    cursor: pointer;
+}

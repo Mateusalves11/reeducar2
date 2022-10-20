@@ -1,0 +1,42 @@
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    background-color: #233562;
+  }
+  
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+  }
+
+  .media-body{
+    font-family: 'Anton', sans-serif;
+  }
+  
+  /* for toggle behavior */
+  
+  .sidebaractive {
+    margin-left: -17rem;
+  }
+  
+  .contentactive {
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-item{
+    border-bottom: 1px solid #1B2745;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .profileNav{
+    background-color:#152242 ;
+    color: white;
+  }
