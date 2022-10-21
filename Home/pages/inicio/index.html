@@ -35,57 +35,48 @@
         <ul class="nav flex-column mb-0">
             <li class="nav-item">
                 <a href="#" class="nav-link text-white ">
-                    <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
-                    Inicio
+                    Início
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link text-white ">
-                    <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
                     Cursos
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link text-white ">
-                    <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
                     Geografia
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link text-white ">
-                    <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
                     Biologia
                 </a>
             </li>
 
             <li class="nav-item">
                 <a href="#" class="nav-link text-white ">
-                    <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
                     Português
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link text-white ">
-                    <i class="fa fa-bar-chart mr-3 text-primary fa-fw"></i>
-                    Matematica
+                    Matemática
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link text-white ">
-                    <i class="fa fa-pie-chart mr-3 text-primary fa-fw"></i>
-                    Fisica
+                    Física
                 </a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link text-white ">
-                    <i class="fa fa-line-chart mr-3 text-primary fa-fw"></i>
                     Quimica
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-flex">
                 <a href="#" class="nav-link text-white ">
-                    <i class="fa fa-line-chart mr-3 text-primary fa-fw"></i>
-                    Historico
+                    Histórico
                 </a>
             </li>
         </ul>
@@ -102,25 +93,185 @@
             </ul>
         </button>
         <h1>Início</h1>
-        <div>
-            <a style="text-decoration: none; color: white;" href="../PerfilProfe/index.html">Mateus Alves</a>
+        <div class="align-items-center justify-content-center d-flex">
+            <object width="35px" data="svg/User.svg" type=""></object>
+            <a class="px-2" style="text-decoration: none; color: white;" href="../PerfilProfe/index.html">Mateus
+                Alves</a>
+            <object width="10px" data="svg/arrowB.svg" type=""></object>
         </div>
     </div>
-    <div class="page-content p-3 searchR" id="content1">
+    <div class="page-content p-3 d-flex searchR" id="content1">
+        <object style="margin-right:10px;" width="22px" data="svg/Search.svg" type=""></object>
         <input type="text" placeholder="Pesquisar">
+    </div>
+    <div class="page-content px-3 searchR d-flex align-items-center" id="content4">
+        <object width="30px" data="svg/filter.svg" type=""></object>
+        <label style="color: white;" for="">Filtros</label>
     </div>
     <div class="page-content p-3 CardsWrap" id="content2">
         <div class="CardRPrincipal" style="background-image:url(imgs/math.jpg);">
-            <h1>Matematica</h1>
+            <a href="../matematica/index.html">Matemática</a>
         </div>
         <div class="CardRWrap">
-            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;"></div>
-            <div class="cardR" style="background-image: url(imgs/biolo.webp); background-size: cover;"></div>
-            <div class="cardR" style="background-image: url(imgs/quimica.jpg); background-size: cover;"></div>
+            <div class="cardR1" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <a href="../videoRaiz/index.html">Física</a>
+            </div>
+            <div class="cardR2" style="background-image: url(imgs/biolo.webp); background-size: cover;"><a
+                    href="../videoRaiz/index.html">Biologia</a></div>
+            <div class="cardR3" style="background-image: url(imgs/quimica.jpg); background-size: cover;"><a
+                    href="../videoRaiz/index.html">Química</a></div>
+        </div>
+    </div>
+    <div class="page-content p-3 CarouselBar" id="content3">
+        <div>
+            <Label>Vídeos Populares</Label>
+            <object width="6px" data="svg/arrowR.svg" type=""></object>
+        </div>
+        <div class="CarouselWrap">
+            <div class="cardR" style="background-image: url(imgsaleat/soma.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgsaleat/redacao.jpg); background-size: cover;">
+                <p>Redação</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgsaleat/acentua.png); background-size: cover;">
+                <p>Acentuação Gráfica</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgsaleat/genetica.jpg); background-size: cover;">
+                <p>Genetica</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgsaleat/tabelaper.jpg); background-size: cover;">
+                <p>Tabela Periódica</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgsaleat/leis.jpg); background-size: cover;">
+                <p>Leis de Newton</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgsaleat/algeb.jpg); background-size: cover;">
+                <p>Álgebra</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgsaleat/organica.jpg); background-size: cover;">
+                <p>Química Orgânica.</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgsaleat/termo.jpg); background-size: cover;">
+                <p>Termologia</p>
+            </div>
+
+        </div>
+        <div>
+            <Label>Matemática Básica</Label>
+            <object width="6px" data="svg/arrowR.svg" type=""></object>
+        </div>
+
+        <div class="CarouselWrap">
+            <div class="cardR" style="background-image: url(mathbasic/1.png); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(mathbasic/2.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(mathbasic/3.png); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(mathbasic/4.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(mathbasic/5.png); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgsaleat/redacao.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/quimica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+        </div>
+        <Label>Geometria</Label>
+        <div class="CarouselWrap">
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+        </div>
+        <Label>Trigonometria</Label>
+        <div class="CarouselWrap">
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
+            <div class="cardR" style="background-image: url(imgs/fisica.jpg); background-size: cover;">
+                <p>soma e divisão</p>
+            </div>
         </div>
     </div>
 
-    </div>
+
 
 
 </body>

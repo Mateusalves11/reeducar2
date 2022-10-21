@@ -21,6 +21,54 @@
 </head>
 
 <body>
+    <div class="modalPET" id="modalPET">
+        <div class="modalContentPET d-flex">
+            <span class='closePET' onclick="showModal()">&times;</span>
+            <div class="WrapSelectsTudao">
+                <div class="SelectsInput">
+                    <div class="SelectsWrap">
+                        <label for="">Materia</label>
+                        <select name="" id="">
+                            <option value="">Selecione</option>
+                            <option selected value="">Matematica</option>
+                        </select>
+                    </div>
+                    <div class="SelectsWrap">
+                        <label for="">Assunto</label>
+                        <select name="" id="">
+                            <option value="">Selecione</option>
+                            <option value="">Raiz Quadrada</option>
+                            <option value="">Soma</option>
+                            <option value="">Algebra</option>
+                            <option value="">Divisão</option>
+                        </select>
+                    </div>
+                    <div class="SelectsWrap">
+                        <label for="">Playlist</label>
+                        <select name="" id="">
+                            <option value="">Selecione</option>
+                            <option selected value="">Matematica Basica</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="InformationsUpload">
+                    <div class="cardRUpload">
+                        <object width="80px" data="svg/upload.svg" type=""></object>
+                        <button>Selecione o Arquivo</button>
+                    </div>
+                    <div class="SelectsWrap">
+                        <label for="">Título</label>
+                        <input value="Como calcular raiz quadrada de 3 modos diferentes"type="text">
+                    </div>
+                    <div class="SelectsWrap">
+                        <label for="">Descrição</label>
+                        <input class="HeightAlto" type="text">
+                    </div>
+                </div>
+            </div>
+            <a style="width: 70%;" href="../videoRaiz/index.html"><button class="ButtonSend">Enviar</button></a>
+        </div>
+    </div>
     <!-- Vertical navbar -->
     <div class="vertical-nav" id="sidebar">
         <div class="py-4 px-3 profileNav">
@@ -102,17 +150,19 @@
             </ul>
         </button>
         <h1>Professor</h1>
-        <div>
-            <p>Mateus Alves</p>
+        <div class="align-items-center justify-content-center d-flex">
+            <object width="35px" data="svg/User.svg" type=""></object>
+            <a class="px-2" style="text-decoration: none; color: white;" href="../PerfilProfe/index.html">Mateus Alves</a>
+            <object width="10px" data="svg/arrowB.svg" type=""></object>
         </div>
     </div>
     <div class="page-content ProfilePhotoWrap" id="content1">
         <section class="ProfilePhoto">
-            <div>IMAGE</div>
+            <div><object width="125px" data="svg/User.svg" type=""></object></div>
             <div style="display: flex; flex-direction: row;
             align-items: center; justify-content: center;">
                 <h1>Mateus Alves</h1>
-                <p>(Professor)</p>
+                <p style="font-weight: 400;">&nbsp;&nbsp;(Professor)</p>
             </div>
         </section>
     </div>
@@ -127,56 +177,60 @@
                     <li>Sobre</li>
                 </ul>
             </div>
-    
-            <button>Envie um Vídeo!</button>
+
+            <button onclick="showModal()">Envie um Vídeo!</button>
         </section>
     </div>
     <div class="page-content VideosProf" id="content3">
         <section>
             <h1 style="display:flex; justify-content: center; font-size: 26px;">Videos</h1>
             <div class="CardsWrap">
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/1.png); background-size: cover;">
+                    <p>Raiz Quadrada</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/2.jpg); background-size: cover;">
+                    <p>Geometria</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/3.png); background-size: cover;">
+                    <p>Geometria2</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/4.jpg); background-size: cover;">
+                    <p>soma</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/5.png); background-size: cover;">
+                    <p>Multiplicação</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/1.png); background-size: cover;">
+                    <p>Raiz Quadrada</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/2.jpg); background-size: cover;">
+                    <p>Geometria</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/3.png); background-size: cover;">
+                    <p>Geometria2</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/4.jpg); background-size: cover;">
+                    <p>soma</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/5.png); background-size: cover;">
+                    <p>Multiplicação</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/1.png); background-size: cover;">
+                    <p>Raiz Quadrada</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/2.jpg); background-size: cover;">
+                    <p>Geometria</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/3.png); background-size: cover;">
+                    <p>Geometria2</p>
                 </div>
-                <div style="background-image: url(./imgs/1_dia_dos_professores-21875273.jpg); background-position: center;  background-size: cover;" class="cardR">
-                    <label for="">Soma e subtração</label>
+                <div class="cardR" style="background-image: url(mathbasic/4.jpg); background-size: cover;">
+                    <p>soma</p>
                 </div>
+                <div class="cardR" style="background-image: url(mathbasic/5.png); background-size: cover;">
+                    <p>Multiplicação</p>
+                </div>
+                
             </div>
         </section>
     </div>

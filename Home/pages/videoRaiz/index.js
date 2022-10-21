@@ -3,12 +3,5 @@ function SidebarActive() {
 }
 function ButtonActive() {
   document.getElementById("content").classList.toggle("contentactive");
-  document.getElementById("content1").classList.toggle("contentactive");
   document.getElementById("content2").classList.toggle("contentactive");
-  document.getElementById("content3").classList.toggle("contentactive");
-}
-
-function showModal(){
-  var element = document.getElementById("modalPET");
-  element.classList.toggle("showModalPET")
 }

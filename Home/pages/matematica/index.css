@@ -1,3 +1,4 @@
+
 .vertical-nav {
     min-width: 17rem;
     width: 17rem;
@@ -113,7 +114,52 @@
     font-family: 'Aton', sans-serif;
 }
 
+/* Video */
+.VideoBox {
+    background-color: #152242;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.VideoBox h3 {
+    color: #FFFF;
+    font-family: 'teko', sans-serif;
+    font-weight: 200;
+}
+.VideoBox p {
+    color: rgb(220, 216, 216);
+    font-family: 'teko', sans-serif;
+    font-weight: 200;
+}
+
+.video{
+    max-width: 1180px;
+    width: 100%;
+}
+
+.iframevideo{
+    width: 100%;
+}
+
+.Description {
+    background-color: #63718C;
+    border-radius: 6px;
+}
+
+.Description p {
+    padding-left: 10px; 
+    padding-top: 6px; 
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
+
 /* Cards */
+
+
 .CardsWrap {
     background-color: #152242;
     display: flex;
@@ -176,6 +222,20 @@
     background-color: #000000dc;
     padding: 5px;
     border-top-right-radius: 6px;
+}
+.cardR a{
+    margin: 0;
+    color: #ffffff;
+    background-color: #000000dc;
+    padding: 5px;
+    border-top-right-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.cardR a:hover{
+    color: white;
 }
 
 

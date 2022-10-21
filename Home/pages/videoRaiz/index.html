@@ -24,8 +24,8 @@
     <!-- Vertical navbar -->
     <div class="vertical-nav" id="sidebar">
         <div class="py-4 px-3 profileNav">
-            <div class="media d-flex align-items-center justify-content-center"><img
-                    src="imgs/TemplateBackSem.png" alt="..." width="65">
+            <div class="media d-flex align-items-center justify-content-center"><img src="imgs/TemplateBackSem.png"
+                    alt="..." width="65">
                 <div class="media-body">
                     <h4 class="m-0">Reeducar</h4>
                 </div>
@@ -34,7 +34,7 @@
 
         <ul class="nav flex-column mb-0">
             <li class="nav-item">
-                <a href="#" class="nav-link text-white ">
+                <a href="../inicio/index.html" class="nav-link text-white ">
                     <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
                     Inicio
                 </a>
@@ -93,11 +93,41 @@
     <!-- End vertical navbar -->
 
     <!-- Page -->
-    <div class="page-content p-5" id="content">
-        <button id="sidebarCollapse" type="button" onclick="ButtonActive(), SidebarActive()"
-            class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small
-                class="text-uppercase font-weight-bold">Toggle</small></button>
+    <div class="page-content p-5 informationPage" id="content">
+        <button id="sidebarCollapse" onclick="ButtonActive(), SidebarActive()" class="">
+            <ul class="ToggleUl">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </button>
+        <h1>Matemática</h1>
+        <div class="align-items-center justify-content-center d-flex">
+            <object width="35px" data="svg/User.svg" type=""></object>
+            <a class="px-2" style="text-decoration: none; color: white;" href="../PerfilProfe/index.html">Mateus Alves</a>
+            <object width="10px" data="svg/arrowB.svg" type=""></object>
+        </div>
     </div>
+
+    <div class="page-content p-3 VideoBox" id="content2">
+        <h3>Como calcular raiz quadrada de 3 modos diferentes</h3>
+        <div class="d-flex align-items-center justify-content-center mb-3">
+            <object width="35px" data="svg/User.svg" type=""></object>
+            <p style="font-size: 22px; margin: 0; margin-left: 10px; margin-top: 8px;"><strong style="font-weight: 800;">Professor</strong>: Mateus Alves</p>
+        </div>
+        <p style="font-size: 18px;"><strong style="font-weight: 600;">Colabore com um pix!</strong>: (81)9999-9999</p>
+        <div class="video">
+            <iframe class="iframevideo" width="1000" height="600" src="https://www.youtube.com/embed/hsD4cwAoaW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h3 style="color: #FFFF; font-weight: 200; padding-top: 5px;" >Descrição</h3>
+
+        <div class="Description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac vulputate lacus, eu commodo orci. Morbi imperdiet ex et dapibus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin elementum, elit nec gravida consectetur, lacus justo rutrum sapien, eget ullamcorper mauris enim id felis. Suspendisse et ultricies tortor, at iaculis felis. Morbi malesuada consequat efficitur. Donec nec egestas nisi. Suspendisse varius quam id porta gravida. Vivamus rutrum orci et sagittis consequat. Morbi nec convallis ligula. Aenean mi ligula, ultrices sed faucibus at, pellentesque vitae orci. Sed efficitur eros ut nulla condimentum, eu consequat tellus blandit. Vivamus ac iaculis eros. Nunc ut tellus ultricies, aliquet purus sit amet, pretium felis. Cras ut diam id metus sagittis varius eu a erat.</p>
+        </div>   
+    </div>
+    
+
 </body>
 
 </html>

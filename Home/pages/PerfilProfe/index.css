@@ -1,3 +1,133 @@
+/* POPUP */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+.modalPET {
+    letter-spacing: 1px;
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+    z-index: 99999;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.showModalPET {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+.modalContentPET {
+    background-color: #212734;
+    padding: 16px 24px;
+    max-width: 900px;
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+    color: white;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.closePET {
+    cursor: pointer;
+    width: 24px;
+    top: -30px;
+    right: -420px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 24px;
+    border-radius: 20px;
+    color: black;
+    font-size: 30px;
+    position: relative;
+}
+
+.closePET {
+    z-index: 9999;
+}
+
+.SelectsInput {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #252525;
+    border: 1px solid #666666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.SelectsInput select {
+    height: 29px;
+    border: none;
+    background-color: #6a6a6a98;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+}
+
+.WrapSelectsTudao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.SelectsWrap {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.SelectsWrap input {
+    height: 29px;
+    border: none;
+    background-color: #333333;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid #666666;
+    font-size: 14px;
+}
+
+.HeightAlto {
+    height: 100px!important;
+}
+
+.ButtonSend {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background: #2C5AB4;
+    border-radius: 6px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/*  */
+
 .vertical-nav {
     min-width: 17rem;
     width: 17rem;
@@ -100,6 +230,7 @@
     background-image: url(imgs/1_dia_dos_professores-21875273.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -130,6 +261,8 @@
     background-color: #223C71;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
     height: 45px;
     width: 100%;
     padding: 15px;
@@ -195,4 +328,51 @@
     font-weight: 700;
     text-shadow: 0px 4px 4px #000000;
     cursor: pointer;
+}
+
+.cardR label{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    color: #ffffff;
+    background-color: #000000dc;
+    padding: 5px;
+    border-top-right-radius: 6px;
+}
+.cardR p{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    color: #ffffff;
+    background-color: #000000dc;
+    padding: 5px;
+    border-top-right-radius: 6px;
+}
+
+.cardRUpload {
+    margin: 10px;
+    width: 250px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px #000000;
+    background-color: #232323;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cardRUpload button {
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px #0000007e;
+    color: white;
+    height: 30px;
+    background-color: #2C5AB4;
+    border: none;
+    border-radius: 6px;
 }

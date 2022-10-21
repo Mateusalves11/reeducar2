@@ -1,0 +1,156 @@
+
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    background-color: #233562;
+}
+
+.page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+
+.media-body {
+    font-family: 'Anton', sans-serif;
+}
+
+/* for toggle behavior */
+#sidebarCollapse {
+    border: none;
+    margin: 0px;
+    position: relative;
+    top: -6px;
+    padding: 0px;
+    background: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ToggleUl {
+    list-style-type: none;
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.ToggleUl li {
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0;
+    height: 2px;
+}
+
+.sidebaractive {
+    margin-left: -17rem;
+}
+
+.contentactive {
+    width: 100%;
+    margin: 0;
+}
+
+.nav-item {
+    border-bottom: 1px solid #1B2745;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profileNav {
+    background-color: #152242;
+    color: white;
+}
+
+/* informationPage */
+
+.informationPage {
+    background-color: #233562;
+    height: 113px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.informationPage p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationPage h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* MAIN */
+.searchR {
+    background-color: #152242;
+}
+
+.searchR input {
+    width: 100%;
+    background-color: #98B0E0;
+    border-radius: 6px;
+    border: none;
+    height: 31px;
+    padding-left: 30px;
+}
+
+.searchR input::placeholder {
+    color: #223E76;
+    font-weight: 800;
+    font-family: 'Aton', sans-serif;
+}
+
+/* Video */
+.VideoBox {
+    background-color: #152242;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.VideoBox h3 {
+    color: #FFFF;
+    font-family: 'teko', sans-serif;
+    font-weight: 200;
+}
+.VideoBox p {
+    color: rgb(220, 216, 216);
+    font-family: 'teko', sans-serif;
+    font-weight: 200;
+}
+
+.video{
+    max-width: 1180px;
+    width: 100%;
+}
+
+.iframevideo{
+    width: 100%;
+}
+
+.Description {
+    background-color: #63718C;
+    border-radius: 6px;
+}
+
+.Description p {
+    padding-left: 10px; 
+    padding-top: 6px; 
+    padding-right: 10px;
+    font-size: 20px;
+}
